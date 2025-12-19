@@ -1,0 +1,16 @@
+[project]
+name = "reinforcement-learning-citymap"
+version = "0.1.0"
+description = "Reinforcement Learning City Map Assignment"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "torch",
+    "PyQt6",
+    "matplotlib",
+    "ipython",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
